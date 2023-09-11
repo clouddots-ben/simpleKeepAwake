@@ -6,7 +6,6 @@ Open a console window in PowerShell or Windows Terminal. Copy and Paste the code
 
 ```
 $wsh = New-Object -ComObject WScript.Shell
-
 while (1) {
   $RNDSleep = Get-Random -Minimum 30 -Maximum 200
   $wsh.SendKeys('+{F15}')
